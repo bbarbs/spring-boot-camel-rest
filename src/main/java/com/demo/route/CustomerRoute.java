@@ -21,7 +21,7 @@ public class CustomerRoute extends RouteBuilder {
                 .component("netty4-http")
                     .bindingMode(RestBindingMode.json)
                 .dataFormatProperty("prettyPrint", "true")
-                .contextPath("/")
+                .contextPath("/api")
                     .port(8090) // Should not be same tomcat port.
                 .apiContextPath("/api-doc")
                     .apiProperty("api.title", "Customer REST API")
