@@ -24,8 +24,9 @@ See: http://camel.apache.org/swagger-java.html
 ## How it Works
 * http://localhost:8090/api/customers
 * http://localhost:8090/api/customers/{customerId}
-<br/>
+
 This is the customer endpoint which perform CRUD operation using the in-memory H2 database. The port used must be same with the one set on the restConfiguration and also the contextPath(which is set to "/api").
+<br/>
 <br/>
 Logging level of camel is set to debug, you can change it to avoid verbosity of logs.
 
