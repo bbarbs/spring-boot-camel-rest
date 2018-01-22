@@ -1,0 +1,26 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:~/h2
+    username: test
+    password: test
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+security:
+  basic:
+    enabled: false
+logging:
+  level:
+    org.apache.camel: debug
+    com.demo: debug
+camel:
+  springboot:
+    name: customer-service
+    main-run-controller: true
+server:
+  port: 8088
