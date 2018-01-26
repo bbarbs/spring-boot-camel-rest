@@ -1,7 +1,5 @@
 # Getting Started
-This is a sample implementation of Apache camel Rest DSL http://camel.apache.org/rest-dsl.html on spring boot project using jpa. 
-<br/>
-It uses Swagger for API documentation.
+This is a sample implementation of Apache camel Rest DSL http://camel.apache.org/rest-dsl.html on spring boot project using jpa. It uses Swagger for API documentation.
 
 ## Configuration
 Here is the sample rest configuration using the swagger and netty4-http component.
