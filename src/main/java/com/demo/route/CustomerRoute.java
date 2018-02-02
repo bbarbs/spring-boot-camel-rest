@@ -30,7 +30,7 @@ public class CustomerRoute extends RouteBuilder {
 
         // This sample consume/produce json only.
         // To access rest endpoint it must use the port in restConfiguration instead of the tomcat/server port.
-        // ex: http://localhost:8090/customers
+        // ex: http://localhost:8090/api/customers
         rest("/customers")
                 .description("Customer service REST API")
                 .consumes(APPLICATION_JSON_VALUE)
