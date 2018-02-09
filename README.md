@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bbarbs/spring-boot-camel-rest.svg?branch=master)](https://travis-ci.org/bbarbs/spring-boot-camel-rest)
+
 # Getting Started
 This is a sample implementation of Apache camel Rest DSL http://camel.apache.org/rest-dsl.html on spring boot project using jpa. It uses Swagger for API documentation.
 
