@@ -20,10 +20,12 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(
+        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+)
 public class CustomerRouteTest {
 
-    private static final String URL = "http://localhost:8090/customers";
+    private static final String URL = "http://localhost:8090/api/customers";
 
     @Autowired
     TestRestTemplate restTemplate; // Must configure springbootTest annotation to webEnvironment so we can inject TestRestTemplate
